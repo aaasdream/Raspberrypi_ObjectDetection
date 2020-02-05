@@ -40,10 +40,13 @@ echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sud
 curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 sudo apt-get update
 sudo apt-get install libedgetpu1-std
+#需要全速運轉可以改成，但有可能過溫燒毀注意散熱。
+#sudo apt-get install libedgetpu1-max
+
 
 
 #安裝jupyter 
-pip3 install matplotlib 
+pip3 install matplotlib==3.1.2
 pip3 install Pillow 
 pip3 install jupyterlab
 
