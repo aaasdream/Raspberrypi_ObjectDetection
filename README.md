@@ -1,4 +1,4 @@
-# Raspberrypi_ObjectDetection
+# 樹梅派上執行物件檢測
 將物件檢測API(ObjectDetectionAPI)佈署到樹梅派(Raspberry pi)4
 
 使用的作業系統來自
