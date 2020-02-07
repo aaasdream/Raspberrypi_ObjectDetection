@@ -51,5 +51,5 @@ pip3 install Pillow
 pip3 install jupyterlab
 
 #安裝網路檔案分享samba
-sudo apt-get install samba
+sudo apt-get -y install samba
 
