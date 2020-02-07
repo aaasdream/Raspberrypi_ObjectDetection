@@ -40,5 +40,10 @@ sudo nano /etc/samba/smb.conf
 ```
 service smbd restart
 ```
+於windows 檔案瀏覽器打上 ```\\樹梅派IP``` 即可打開分享資料夾   
 
-
+# 開啟遠端網頁編輯軟體Jupyter
+可以在電腦使用網頁編輯樹梅派上的python，執行完之後console會顯示token將他複製到電腦瀏覽器上即可以更改密碼。  
+```
+jupyter notebook --ip=0.0.0.0
+```
