@@ -50,3 +50,6 @@ pip3 install matplotlib==3.1.2
 pip3 install Pillow 
 pip3 install jupyterlab
 
+#安裝網路檔案分享samba
+sudo apt-get install samba
+
