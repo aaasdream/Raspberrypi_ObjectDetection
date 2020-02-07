@@ -27,14 +27,14 @@ sudo nano /etc/samba/smb.conf
 設定檔的最下方加入幾行文字，存檔並離開。 注意這是免密碼開啟分享，請於私人網路使用，於公用網路將會暴露Desktop資料夾下方所有檔案。  
 ```
 [Desktop]
-    comment = 快速分享桌面  
-    path = /home/pi/Desktop  
-    public = yes  
-    browseable = yes  
-    writable = yes  
-    create mask = 0776  
-    directory mask = 0776  
-    force user = pi  
+    comment = 快速分享桌面
+    path = /home/pi/Desktop
+    public = yes
+    browseable = yes
+    writable = yes
+    create mask = 0776
+    directory mask = 0776
+    force user = pi
 ```
 編輯存檔完成重新啟動服務即可網路分享，讓PC傳送檔案至樹梅派桌面。  
 ```
