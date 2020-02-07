@@ -18,7 +18,7 @@
 
 #更新系統
 sudo apt update
-pip3 install --upgrade pip
+python -m pip install -U pip
 
 
 #安裝 opencv 3.4.6.27
