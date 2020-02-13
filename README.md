@@ -20,11 +20,11 @@ python3 -m venv TF20
 source ./TF20/bin/activate  
 ```
 # 執行[setup.sh](https://github.com/aaasdream/Raspberrypi_ObjectDetection/blob/master/setup.sh) 可以快速安裝起執行推理的環境
-快速安裝OpenCV
-快速安裝Tensorflow 2.0
-快速安裝Tensorflow Lite 2.1
-快速安裝Coral USB 加速器驅動
-快速安裝samba 網路檔案共享
+快速安裝OpenCV  
+快速安裝Tensorflow 2.0  
+快速安裝Tensorflow Lite 2.1  
+快速安裝Coral USB 加速器驅動  
+快速安裝samba 網路檔案共享  
 ```
 /bin/bash  setup.sh  
 ```
