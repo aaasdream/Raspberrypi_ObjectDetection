@@ -38,7 +38,7 @@ sudo nano /etc/samba/smb.conf
 ```
 編輯存檔完成重新啟動服務即可網路分享，讓PC傳送檔案至樹梅派桌面。  
 ```
-service smbd restart
+sudo service smbd restart
 ```
 於windows 檔案瀏覽器打上 ```\\樹梅派IP``` 即可打開分享資料夾   
 
