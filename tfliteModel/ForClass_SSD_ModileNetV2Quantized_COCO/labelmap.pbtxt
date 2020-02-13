@@ -1,0 +1,12 @@
+item {
+  id: 1
+  name: 'Duck'
+}
+item {
+  id: 2
+  name: 'Elephant'
+}
+item {
+  id: 3
+  name: 'Flip_flop'
+}
