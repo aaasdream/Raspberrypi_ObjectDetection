@@ -1,18 +1,16 @@
 #!/bin/bash
 #===================================說明============================================================
-#此安裝檔的目的，在於快速安裝Tensorflow 2.0 、 Tensorflow lite 2.1 與 Coral USB加速器驅動於樹梅派4上
+#此安裝檔的目的，在於快速安裝Tensorflow 2.1 、 Tensorflow lite 2.1 與 Coral USB加速器驅動於樹梅派4上
 
 #使用的作業系統來自
 # https://www.raspberrypi.org/downloads/raspbian/  
 # Raspbian Buster with desktop and recommended software
-# Version:September 2019
-# Release date:2019-09-26
 # 內建的python 3.7 
 
 #建議先安裝VirtualEnv建立好虛擬環境 再執行此安裝程式
 # pip3 install virtualenv
-# python3 -m venv TF20
-# source ./TF20/bin/activate
+# python3 -m venv TF21
+# source ./TF21/bin/activate
 
 #===============================以下開始執行安裝=====================================================
 
@@ -26,10 +24,10 @@ sudo apt-get -y install libatlas-base-dev libjpeg-dev libtiff5-dev libjasper-dev
 pip3 install opencv-python==3.4.6.27
 
 
-#安裝tensorflow 2.0
-wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v2.0.0/tensorflow-2.0.0-cp37-none-linux_armv7l.whl
-pip3 install tensorflow-2.0.0-cp37-none-linux_armv7l.whl
-rm tensorflow-2.0.0-cp37-none-linux_armv7l.whl
+#安裝tensorflow 2.1
+wget https://github.com/PINTO0309/Tensorflow-bin/raw/master/tensorflow-2.1.0-cp37-cp37m-linux_armv7l.whl
+pip3 tensorflow-2.1.0-cp37-cp37m-linux_armv7l.whl
+rm tensorflow-2.1.0-cp37-cp37m-linux_armv7l.whl
 
 
 #安裝tensorflow lite 2.1
