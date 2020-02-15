@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 #===================================說明============================================================
 #此安裝檔的目的，在於快速安裝Tensorflow 2.1 、 Tensorflow lite 2.1 與 Coral USB加速器驅動於樹梅派4上
 
@@ -26,7 +26,7 @@ pip3 install opencv-python==3.4.6.27
 
 #安裝tensorflow 2.1
 wget https://github.com/PINTO0309/Tensorflow-bin/raw/master/tensorflow-2.1.0-cp37-cp37m-linux_armv7l.whl
-pip3 tensorflow-2.1.0-cp37-cp37m-linux_armv7l.whl
+pip3 install tensorflow-2.1.0-cp37-cp37m-linux_armv7l.whl
 rm tensorflow-2.1.0-cp37-cp37m-linux_armv7l.whl
 
 
