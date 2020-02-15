@@ -11,7 +11,7 @@ Raspbian Buster with desktop and recommended software
 # 建議建立虛擬環境
 開源軟體經常會碰到版本地獄，建議使用virtualenv，先建立存放虛擬工作環境的資料夾。  
 於console視窗將工作目錄切換到虛擬工作環境的資料夾。  
-示範安裝與建立TF20的環境  
+示範安裝與建立TF21的環境  
 ```
 pip3 install virtualenv  
 python3 -m venv TF21  
