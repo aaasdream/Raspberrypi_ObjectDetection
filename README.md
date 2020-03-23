@@ -10,7 +10,8 @@ Raspbian Buster with desktop and recommended software
 使用[balenaEtcher ](https://www.balena.io/etcher/) 把作業系統寫入SD卡  
 
 # 強烈建議建立虛擬環境(以下在樹梅派操作)
-開源軟體經常會碰到版本地獄，建議使用virtualenv，先建立存放虛擬工作環境的資料夾。  
+開源軟體經常會碰到版本地獄問題，建議使用virtualenv  
+因為建立虛擬環境會產生虛擬環境的資料夾，請先建立存放虛擬工作環境的資料夾以存放虛擬環境。  
 於console視窗將工作目錄切換到虛擬工作環境的資料夾。  
 示範安裝與建立TF21的環境  
 ```
