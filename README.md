@@ -2,14 +2,14 @@
 這個專案的目的是希望能夠快速的安裝好執行Tensorflow Object Detection API的執行環境，在樹梅派3、4上。  
 並可使用 Coral usb accelerator Edge tpu加速  
 
-# 樹梅派作業系統
+# 樹梅派作業系統(在PC操作)
 https://www.raspberrypi.org/downloads/raspbian/  
 Raspbian Buster with desktop and recommended software  
 內建的python 3.7  
 使用[SD Memory Card Formatter](https://www.sdcard.org/downloads/formatter/) 格式化SD卡  
 使用[balenaEtcher ](https://www.balena.io/etcher/) 把作業系統寫入SD卡  
 
-# 強烈建議建立虛擬環境
+# 強烈建議建立虛擬環境(以下在樹梅派操作)
 開源軟體經常會碰到版本地獄，建議使用virtualenv，先建立存放虛擬工作環境的資料夾。  
 於console視窗將工作目錄切換到虛擬工作環境的資料夾。  
 示範安裝與建立TF21的環境  
